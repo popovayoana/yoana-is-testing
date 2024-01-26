@@ -146,16 +146,6 @@ This paragraph belongs to item two of the outer list.
 ## Mermaids
 
 ```mermaid
-graph LR
-    A[Start] --> B{Is it sunny?}
-    B -->|Yes| C[Go for a walk]
-    B -->|No| D[Read a book]
-    C --> E[Return home]
-    D --> E
-
-### Another one
-
-```mermaid
 graph TD
     A[Start Testing Process] --> B{Run Unit Tests}
     B -->|Pass| C[Deploy to Staging]
