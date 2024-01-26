@@ -43,7 +43,7 @@ What truly stood out for Yoana was Datahub Cloud's emphasis on security and coll
 
 ### Inspiring Visuals
 
-![Data Insight Visualization](https://unsplash.com/photos/pink-and-white-flower-on-white-background-sZj8qOt3yTU "Inspirational Data Visualizations")
+![See the flower](https://images.unsplash.com/photo-1590119977523-5af0d80c559f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "Beutiful Flower")
 
 ### Yoana's Reflections
 
@@ -60,12 +60,7 @@ WHERE action_date >= '2023-01-01'
 GROUP BY user_id
 ORDER BY action_count DESC;
 
-# Analyzing user behavior
-import pandas as pd
-
-df = pd.read_csv('user_actions.csv')
-print(df.describe())
-
+```
 ### Project Management Table
 
 | Task                  | Status       | Deadline   |
@@ -148,7 +143,7 @@ b. List item b.
 This paragraph belongs to item two of the outer list.
 --
 
-## Mermaid
+## Mermaids
 
 ```mermaid
 graph LR
@@ -157,3 +152,17 @@ graph LR
     B -->|No| D[Read a book]
     C --> E[Return home]
     D --> E
+
+### Another one
+
+```mermaid
+graph TD
+    A[Start Testing Process] --> B{Run Unit Tests}
+    B -->|Pass| C[Deploy to Staging]
+    B -->|Fail| D[Review & Fix Code]
+    D --> B
+    C --> E{Perform Integration Tests}
+    E -->|Pass| F[Deploy to Production]
+    E -->|Fail| G[Review & Fix Integrations]
+    G --> E
+    F --> H[Yoana Completes Testing]
