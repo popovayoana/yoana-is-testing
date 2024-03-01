@@ -98,19 +98,19 @@ ORDER BY action_count DESC;
 
 ### Using HTML
 
-<div style="background-color: #ffffcc; padding: 10px; border-left: 6px solid #ffeb3b;">
+<div style={{'background-color': '#ffffcc', 'padding': '10px', 'border-left': '6px solid #ffeb3b'}}>
   <strong>Note:</strong> This is a custom note callout.
 </div>
 
-<div style="background-color: #e7f5fe; padding: 10px; border-left: 6px solid #2196f3;">
+<div style={{'background-color': '#e7f5fe', 'padding': '10px', 'border-left': '6px solid #2196f3'}}>
   <strong>Tip:</strong> This is a custom tip callout.
 </div>
 
-<div style="background-color: #ffebee; padding: 10px; border-left: 6px solid #f44336;">
+<div style={{'background-color': '#ffebee', 'padding': '10px', 'border-left': '6px solid #f44336'}}>
   <strong>Warning:</strong> This is a custom warning callout.
 </div>
 
-<div style="background-color: #e8f5e9; padding: 10px; border-left: 6px solid #4caf50;">
+<div style={{'background-color': '#e8f5e9', 'padding': '10px', 'border-left': '6px solid #4caf50'}}>
   <strong>Important:</strong> This is a custom important callout.
 </div>
 
@@ -156,3 +156,4 @@ graph TD
     E -->|Fail| G[Review & Fix Integrations]
     G --> E
     F --> H[Yoana Completes Testing]
+```
